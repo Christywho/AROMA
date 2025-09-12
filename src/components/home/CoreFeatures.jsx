@@ -17,7 +17,7 @@ export default function App() {
         {
             url: img1,
             review: {
-                text: "Ashoka has truly redefined the way I explore natural remedies!....",
+                text: "AROMA has truly redefined the way I explore natural remedies!....",
                 reviewer: "Dr. Bittu Kumar",
                 position: "Ayurvedic Research",
                 rating: 4.5

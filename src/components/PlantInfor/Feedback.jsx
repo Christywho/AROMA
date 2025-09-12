@@ -11,10 +11,10 @@ import Man4 from '../../Assets/avatar/man5.jpeg'
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 const reviews = [
-  { name: 'Emily Johnson', review: 'Ashoka transformed our inventory management, making it efficient and hassle-free!', avatarImg: Man1, ratingvalue: 4.5 },
-  { name: 'Michael Brown', review: 'The analytics and real-time updates provided by Ashoka are exceptional and have significantly boosted our productivity.', avatarImg: Man2, ratingvalue: 4 },
-  { name: 'Sarah Wilson', review: 'Highly recommend Ashoka for any business looking to optimize their stock levels and reduce waste.', avatarImg: Man3, ratingvalue: 4.5 },
-  { name: 'David Lee', review: 'With Ashoka, our stockouts have drastically reduced, and our operations are running smoother than ever!', avatarImg: Man4, ratingvalue: 5 },
+  { name: 'Emily Johnson', review: 'AROMA transformed our inventory management, making it efficient and hassle-free!', avatarImg: Man1, ratingvalue: 4.5 },
+  { name: 'Michael Brown', review: 'The analytics and real-time updates provided by AROMA are exceptional and have significantly boosted our productivity.', avatarImg: Man2, ratingvalue: 4 },
+  { name: 'Sarah Wilson', review: 'Highly recommend AROMA for any business looking to optimize their stock levels and reduce waste.', avatarImg: Man3, ratingvalue: 4.5 },
+  { name: 'David Lee', review: 'With AROMA, our stockouts have drastically reduced, and our operations are running smoother than ever!', avatarImg: Man4, ratingvalue: 5 },
 ];
 
 

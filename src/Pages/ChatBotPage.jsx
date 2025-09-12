@@ -60,7 +60,7 @@ function ChatBot() {
         <Box>
           {response && (
             <Typography backgroundColor='#b4d3c4' borderRadius={2} p={2} width={'17rem'}>
-              <b>Ashoka:</b> {response}
+              <b>AROMA:</b> {response}
             </Typography>
           )}
         </Box>

@@ -217,10 +217,10 @@ function LandingPage() {
           </Box>
           <Stack height={isMobile?'40rem':'unset'} justifyContent={isMobile? 'center' :'unset'} ref={textRef} width={isMobile? '17rem' : 'unset'} alignItems={'flex-start'} ml={isMobile? '3rem':'5rem'}>
             <Typography className="animated-text" variant="h2" fontWeight={'600'} color="#00ff00" style={{textShadow:'rgb(15 15 15) 2px 2px'}}>
-              Ashoka
+              AROMA
             </Typography>
             <Typography className="animated-text" variant="body1" color="white" gutterBottom margin={'17px 0px 21px 0px'} style={{textShadow:'rgb(15 15 15) 2px 2px'}}>
-              Ashoka is a digital platform that harnesses the healing power of plants and herbs by combining ancient knowledge with modern technology. It offers seamless access to natural remedies, making traditional herbal wisdom both accessible and relevant for today’s generation.
+              AROMA is a digital platform that harnesses the healing power of plants and herbs by combining ancient knowledge with modern technology. It offers seamless access to natural remedies, making traditional herbal wisdom both accessible and relevant for today’s generation.
             </Typography>
             <Button className="animated-text" onClick={() => description()} variant="contained" color='success'>
               Explore More

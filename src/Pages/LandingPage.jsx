@@ -204,23 +204,33 @@ function LandingPage() {
           style={{
             zIndex: '220',
             position: 'absolute',
-            width: 'inherit',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            width: '80%',
             display: 'flex',
-            justifyContent: 'flex-start',
-            width: '50%',
+            justifyContent: 'center',
+            alignItems: 'center',
             color: 'green',
-            flexDirection: 'column'
+            flexDirection: 'column',
+            textAlign: 'center'
           }}
         >
 
-          <Stack height={isMobile ? '40rem' : 'unset'} justifyContent={isMobile ? 'center' : 'unset'} ref={textRef} width={isMobile ? '17rem' : 'unset'} alignItems={'flex-start'} ml={isMobile ? '3rem' : '5rem'}>
-            <Typography className="animated-text" variant="h2" fontWeight={'600'} color="#00ff00" style={{ textShadow: 'rgb(15 15 15) 2px 2px' }}>
+          <Stack
+            height={isMobile ? '40rem' : 'unset'}
+            justifyContent={'center'}
+            ref={textRef}
+            width={isMobile ? '100%' : '80%'}
+            alignItems={'center'}
+          >
+            <Typography className="animated-text" variant={isMobile ? "h3" : "h1"} fontWeight={'800'} color="#00ff00" style={{ textShadow: 'rgb(15 15 15) 4px 4px 8px' }}>
               AROMA
             </Typography>
-            <Typography className="animated-text" variant="body1" color="white" gutterBottom margin={'17px 0px 21px 0px'} style={{ textShadow: 'rgb(15 15 15) 2px 2px' }}>
+            <Typography className="animated-text" variant="h6" color="white" gutterBottom margin={'17px 0px 21px 0px'} style={{ textShadow: 'rgb(15 15 15) 2px 2px 4px', maxWidth: '800px' }}>
               AROMA is a digital platform that harnesses the healing power of plants and herbs by combining ancient knowledge with modern technology. It offers seamless access to natural remedies, making traditional herbal wisdom both accessible and relevant for today’s generation.
             </Typography>
-            <Button className="animated-text" onClick={() => description()} variant="contained" color='success'>
+            <Button className="animated-text" onClick={() => description()} variant="contained" color='success' size="large" sx={{ borderRadius: '30px', px: 4, py: 1.5, fontSize: '1.1rem' }}>
               Explore More
             </Button>
           </Stack>

@@ -17,12 +17,12 @@ import { useNavigate } from 'react-router-dom';
 const plantData = [
   {
     img: plant1,
-    description: <>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</>,
+    description: <><b>Tulsi (Holy Basil)</b>: Known for its adaptogenic properties and ability to reduce stress.</>,
     isBookmarked: true,
   },
   {
     img: plant2,
-    description: <>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</>,
+    description: <><b>Aloe Vera</b>: Renowned for its skin-healing and digestive benefits.</>,
     isBookmarked: false,
   },
   // {
@@ -32,22 +32,22 @@ const plantData = [
   // },
   {
     img: plant4,
-    description: <>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</>,
+    description: <><b>Ashwagandha</b>: A powerful herb for vitality and stress relief.</>,
     isBookmarked: false,
   },
   {
     img: plant5,
-    description: <>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</>,
+    description: <><b>Neem</b>: Famous for its antibacterial and blood-purifying properties.</>,
     isBookmarked: true,
   },
   {
     img: plant6,
-    description: <>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</>,
+    description: <><b>Brahmi</b>: Excellent for memory and cognitive function.</>,
     isBookmarked: false,
   },
   {
     img: plant7,
-    description: <>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</>,
+    description: <><b>Amla (Indian Gooseberry)</b>: Rich in Vitamin C and great for immunity.</>,
     isBookmarked: true,
   },
 ];

@@ -98,7 +98,7 @@ function DrawerAppBar(props) {
         <AppBar
           component="nav"
           sx={{
-            background: 'linear-gradient(90deg, rgba(31,236,11,1) 7%, rgba(0,124,60,1) 89%)',
+            background: 'linear-gradient(90deg, #1b5e20 0%, #2e7d32 100%)',
           }}
         >
           <Toolbar>

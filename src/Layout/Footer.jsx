@@ -17,26 +17,26 @@ const Footer = () => {
               tradition and technology.
             </Typography>
           </Grid>
-          
+
           {/* Section for Useful Links */}
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" gutterBottom>
               Useful Links
             </Typography>
-            <Link href="#" color="inherit" underline="hover" display="block">
+            <Link href="/home" color="inherit" underline="hover" display="block">
               Home
             </Link>
-            <Link href="#" color="inherit" underline="hover" display="block">
+            <Link href="/explore" color="inherit" underline="hover" display="block">
               Explore Plants
             </Link>
-            <Link href="#" color="inherit" underline="hover" display="block">
-              Virtual Tours
+            <Link href="/garden" color="inherit" underline="hover" display="block">
+              Virtual Garden
             </Link>
             <Link href="#" color="inherit" underline="hover" display="block">
               Contact Us
             </Link>
           </Grid>
-          
+
           {/* Section for Contact */}
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" gutterBottom>
